@@ -3,7 +3,7 @@ title: "AI協働開発フレームワーク公開 ― 「正しいが実践で�
 emoji: "🔧"
 type: "idea"
 topics: ["ai", "claude", "開発", "チーム開発", "ソフトウェア工学"]
-published: false
+published: true
 ---
 
 :::message
