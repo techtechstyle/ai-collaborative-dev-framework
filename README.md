@@ -340,6 +340,9 @@ npm run test         # テスト実行
 | 論文 | 引用箇所 | 内容 |
 |------|---------|------|
 | Liu et al. (2023) "[Lost in the Middle: How Language Models Use Long Contexts](https://arxiv.org/abs/2307.03172)" | Part 2, 付録C | LLMが長いコンテキストの中間部分を見落としやすいという現象 |
+| Licklider, "Man-Computer Symbiosis" (1960) | Part 0 増強の哲学 | 人間-コンピュータの役割分担の原型 |
+| Engelbart, "Augmenting Human Intellect" (1962) | Part 0 増強の哲学 | 「増強」概念の源流、技術矮小化の教訓 |
+| Raymond, "The Cathedral and the Bazaar" (1997) | Part 0 1文1検証 | OSSの協働モデル、PRの粒度と品質の関係 |
 
 ### 書籍
 
