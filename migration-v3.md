@@ -264,7 +264,7 @@ v3.0では、判断が階層に沿って一意に決まります。
 | 03-practices.md | 同上 |
 | 04-growth-adoption.md | 同上 |
 | appendix-d-tooling-reference.md | ツール#14を「階層判断フロー」に書き換え |
-| README.md | 「本ガイドの哲学」を階層形式に変更 |
+| README.md | 「本フレームワークの哲学」を階層形式に変更 |
 | CHANGELOG.md | v3.0エントリを追加 |
 
 ---
