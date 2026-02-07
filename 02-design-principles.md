@@ -429,7 +429,7 @@ secrets/
 
 ---
 
-## 9.5 設計原則（SOLID等）のAI協働適用 [L2]
+## 9.5 設計原則(SOLID等)のAI協働適用 [L2]
 
 従来のソフトウェア設計原則は、AI協働開発でも有効です。
 ただし、AI協働の文脈で**再解釈**することで、より実践的に適用できます。
@@ -438,8 +438,8 @@ secrets/
 
 #### 定義
 
-> **疎結合（Loose Coupling）**: モジュール間の依存を最小化する
-> **高凝集（High Cohesion）**: モジュール内の関連性を最大化する
+> **疎結合(Loose Coupling)**: モジュール間の依存を最小化する
+> **高凝集(High Cohesion)**: モジュール内の関連性を最大化する
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
@@ -470,16 +470,16 @@ secrets/
 
 #### 実践チェックリスト
 
-- [ ] このモジュールは他のモジュールなしでテストできるか？（疎結合）
-- [ ] このモジュール内の関数は同じ目的を持つか？（高凝集）
-- [ ] モジュール間の依存はインターフェースを通しているか？（疎結合）
-- [ ] 変更時に影響範囲が限定されるか？（疎結合）
+- [ ] このモジュールは他のモジュールなしでテストできるか?(疎結合)
+- [ ] このモジュール内の関数は同じ目的を持つか?(高凝集)
+- [ ] モジュール間の依存はインターフェースを通しているか?(疎結合)
+- [ ] 変更時に影響範囲が限定されるか?(疎結合)
 
-### 関心の分離（Separation of Concerns）
+### 関心の分離(Separation of Concerns)
 
 #### 定義
 
-> **定義**: プログラムを異なる関心（責務）ごとに分離し、
+> **定義**: プログラムを異なる関心(責務)ごとに分離し、
 > 各部分が1つの関心のみを扱うようにする設計原則
 
 ```
@@ -487,13 +487,13 @@ secrets/
 │                  関心の分離の例                                  │
 ├─────────────────────────────────────────────────────────────────┤
 │                                                                 │
-│  ❌ 関心が混在（悪い例）                                        │
+│  ❌ 関心が混在(悪い例)                                        │
 │  ─────────────────────                                          │
 │  function processOrder(order) {                                 │
 │    // 検証、計算、DB保存、メール送信が混在                      │
 │  }                                                              │
 │                                                                 │
-│  ✅ 関心を分離（良い例）                                        │
+│  ✅ 関心を分離(良い例)                                        │
 │  ─────────────────────                                          │
 │  validateOrder(order)     // 検証の関心                         │
 │  calculateTotal(order)    // 計算の関心                         │
@@ -507,35 +507,35 @@ secrets/
 
 | 場面 | 関心の分離の実践 |
 |------|-----------------|
-| **タスク分解** | 1タスク = 1関心（検証、実装、テストを分離） |
-| **プロンプト設計** | 1プロンプト = 1目的（複数の目的を混ぜない） |
-| **ファイル構成** | 1ファイル = 1責務（S2原則と同義） |
+| **タスク分解** | 1タスク = 1関心(検証、実装、テストを分離) |
+| **プロンプト設計** | 1プロンプト = 1目的(複数の目的を混ぜない) |
+| **ファイル構成** | 1ファイル = 1責務(S2原則と同義) |
 
 > **S2「1ファイル=1責務」との関係**: 関心の分離は、S2原則の理論的基盤です。
 
-### 依存性逆転原則（DIP: Dependency Inversion Principle）
+### 依存性逆転原則(DIP: Dependency Inversion Principle)
 
 #### 定義
 
 > **定義**: 上位モジュールは下位モジュールに依存すべきでない。
-> 両者は抽象（インターフェース）に依存すべき。
+> 両者は抽象(インターフェース)に依存すべき。
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
 │                  依存性逆転の図解                                │
 ├─────────────────────────────────────────────────────────────────┤
 │                                                                 │
-│  ❌ 従来（上位が下位に依存）                                    │
+│  ❌ 従来(上位が下位に依存)                                    │
 │  ─────────────────────────                                      │
 │  OrderService ──────────► MySQLRepository                       │
-│  （具体的な実装に依存）                                         │
+│  (具体的な実装に依存)                                         │
 │                                                                 │
-│  ✅ DIP適用後（両者が抽象に依存）                               │
+│  ✅ DIP適用後(両者が抽象に依存)                               │
 │  ─────────────────────────────────                              │
 │  OrderService ───► IRepository ◄─── MySQLRepository             │
-│  （インターフェースに依存）                                     │
+│  (インターフェースに依存)                                     │
 │                                                                 │
-│  効果: 実装を差し替え可能（テスト時にモック、本番でMySQL）      │
+│  効果: 実装を差し替え可能(テスト時にモック、本番でMySQL)      │
 │                                                                 │
 └─────────────────────────────────────────────────────────────────┘
 ```
@@ -551,7 +551,7 @@ secrets/
 #### TypeScriptでの実践
 
 ```typescript
-// インターフェース定義（抽象）
+// インターフェース定義(抽象)
 interface UserRepository {
   findById(id: UserId): Promise<User | null>;
   save(user: User): Promise<void>;
@@ -575,7 +575,7 @@ class InMemoryUserRepository implements UserRepository {
 }
 ```
 
-### インターフェース分離原則（ISP: Interface Segregation Principle）
+### インターフェース分離原則(ISP: Interface Segregation Principle)
 
 #### 定義
 
@@ -612,7 +612,7 @@ class InMemoryUserRepository implements UserRepository {
 - **API設計**: 汎用APIより、目的特化API
 - **タスク分解**: 大きなタスクより、単一目的のタスク
 
-### 開放閉鎖原則（OCP: Open/Closed Principle）
+### 開放閉鎖原則(OCP: Open/Closed Principle)
 
 #### 定義
 
@@ -624,7 +624,7 @@ class InMemoryUserRepository implements UserRepository {
 │                  開放閉鎖原則の適用                              │
 ├─────────────────────────────────────────────────────────────────┤
 │                                                                 │
-│  ❌ OCP違反（新しい型を追加するたびに修正が必要）               │
+│  ❌ OCP違反(新しい型を追加するたびに修正が必要)               │
 │  ─────────────────────────────────────────                      │
 │  function calculateArea(shape: Shape) {                         │
 │    if (shape.type === 'circle') return ...;                     │
@@ -632,7 +632,7 @@ class InMemoryUserRepository implements UserRepository {
 │    // 新しい図形を追加するたびにこの関数を修正                  │
 │  }                                                              │
 │                                                                 │
-│  ✅ OCP準拠（拡張で対応）                                       │
+│  ✅ OCP準拠(拡張で対応)                                       │
 │  ─────────────────────────                                      │
 │  interface Shape {                                              │
 │    calculateArea(): number;                                     │
@@ -656,11 +656,11 @@ class InMemoryUserRepository implements UserRepository {
 
 | SOLID原則 | フレームワーク原則 | 関係 |
 |-----------|-------------------|------|
-| SRP（単一責任） | S2「1ファイル=1責務」 | 同義 |
-| OCP（開放閉鎖） | R2「プロセスの可逆性」 | 変更しやすい設計 |
-| LSP（リスコフ置換） | A4「規約の厳守」 | インターフェース遵守 |
-| ISP（インターフェース分離） | S1「1文1検証」 | 小さく分割 |
-| DIP（依存性逆転） | 疎結合設計 | テスト容易性 |
+| SRP(単一責任) | S2「1ファイル=1責務」 | 同義 |
+| OCP(開放閉鎖) | R2「プロセスの可逆性」 | 変更しやすい設計 |
+| LSP(リスコフ置換) | A4「規約の厳守」 | インターフェース遵守 |
+| ISP(インターフェース分離) | S1「1文1検証」 | 小さく分割 |
+| DIP(依存性逆転) | 疎結合設計 | テスト容易性 |
 
 ---
 
@@ -1292,14 +1292,14 @@ const config = {
   mode: 'production',
   features: ['auth', 'api']
 }
-// 型: { mode: string; features: string[] }
+// åž‹: { mode: string; features: string[] }
 
 // ✅ 型が狭まる
 const config = {
   mode: 'production',
   features: ['auth', 'api']
 } as const
-// 型: { readonly mode: 'production'; readonly features: readonly ['auth', 'api'] }
+// åž‹: { readonly mode: 'production'; readonly features: readonly ['auth', 'api'] }
 ```
 
 **`as const`の効果:**
@@ -1367,8 +1367,8 @@ const first = users[0]  // 型: string(危険!)
 const tenth = users[10]  // 型: string(存在しないのに!)
 
 // noUncheckedIndexedAccess: true
-const first = users[0]  // 型: string | undefined
-const tenth = users[10]  // 型: string | undefined
+const first = users[0]  // åž‹: string | undefined
+const tenth = users[10]  // åž‹: string | undefined
 
 // 使用時にチェックが必須になる
 if (first !== undefined) {
@@ -1387,7 +1387,7 @@ if (first !== undefined) {
 const scores: Record<string, number> = { alice: 100 }
 
 // noUncheckedIndexedAccess: true
-const bobScore = scores['bob']  // 型: number | undefined
+const bobScore = scores['bob']  // åž‹: number | undefined
 ```
 
 ---
