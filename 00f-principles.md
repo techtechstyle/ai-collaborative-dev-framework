@@ -813,4 +813,6 @@ L0-L3を満たした上で、AIの強みを戦略的に活用する原則です�
 
 ---
 
+> 📖 ソフトウェア工学の実践がAIによってどう変わるかは [00h-engineering-liberation.md](./00h-engineering-liberation.md)（ソフトウェア工学の解放）を参照してください。
+
 次のドキュメント: [Part 1: マインドセット](./01-mindset.md)

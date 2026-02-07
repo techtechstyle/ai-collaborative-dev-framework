@@ -937,4 +937,4 @@ OSSコミュニティが非同期・分散環境でソフトウェア品質を�
 
 ---
 
-次のドキュメント: [00f-principles.md](./00f-principles.md)（15の原則・まとめ）
+次のドキュメント: [00f-principles.md](./00f-principles.md)（27の原則・まとめ）
