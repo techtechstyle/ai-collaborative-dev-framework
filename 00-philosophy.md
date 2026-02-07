@@ -33,7 +33,7 @@ Part 0: 哲学と原則
 ├── 00e-haste-simplicity.md     ← Level 2-3: 急がば回れ、シンプルさ、YAGNI
 ├── 00f-principles.md     ← 27の原則（人間15 + 協働4 + AI 4 + AIファースト4）
 ├── 00g-ai-first.md       ← Level 4: AIファースト（AIの強みを活かす）
-└── 00h-engineering-liberation.md ← ソフトウェア工学の解放（詳細）★新設★
+└── 00h-engineering-liberation.md ← ソフトウェア工学の解放（詳細）
 ```
 
 | ファイル | 内容 | 対象レベル |
