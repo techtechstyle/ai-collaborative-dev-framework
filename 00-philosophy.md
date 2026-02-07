@@ -27,7 +27,7 @@ Part 0は以下のファイルで構成されています。
 Part 0: 哲学と原則
 ├── 00-philosophy.md      ← このファイル（索引）
 ├── 00a-introduction.md   ← ソフトウェア工学の解放（宣言）、はじめに、哲学の階層構造
-├── 00b-augmentation.md   ← 増強の哲学、引き出す責任、協働の責任、AIの応える責任
+├── 00b-augmentation.md   ← 増強の哲学、知的系譜、引き出す責任、協働の責任、AIの応える責任
 ├── 00c-sustainability.md ← Level 0: 持続可能性（可逆性含む）
 ├── 00d-psychological-safety.md ← Level 1: 心理的安全性
 ├── 00e-haste-simplicity.md     ← Level 2-3: 急がば回れ、シンプルさ、YAGNI
@@ -39,7 +39,7 @@ Part 0: 哲学と原則
 | ファイル | 内容 | 対象レベル |
 |---------|------|-----------|
 | [00a-introduction.md](./00a-introduction.md) | ソフトウェア工学の解放（宣言）、はじめに、AIへの期待値、哲学の階層構造 | L1 |
-| [00b-augmentation.md](./00b-augmentation.md) | 増強の哲学、引き出す責任、協働の責任、AIの応える責任 | L1 |
+| [00b-augmentation.md](./00b-augmentation.md) | 増強の哲学、人間-コンピュータ協働の知的系譜、引き出す責任、協働の責任、AIの応える責任 | L1 |
 | [00c-sustainability.md](./00c-sustainability.md) | Level 0: 持続可能性、可逆性の原則(R1-R3) | L1 |
 | [00d-psychological-safety.md](./00d-psychological-safety.md) | Level 1: 心理的安全性、具体的行動、チーム規範 | L1 |
 | [00e-haste-simplicity.md](./00e-haste-simplicity.md) | Level 2: 急がば回れ、Level 3: シンプルさ、1文1検証、YAGNI | L1 |
