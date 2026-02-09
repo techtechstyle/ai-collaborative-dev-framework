@@ -182,7 +182,9 @@ flowchart TB
 | [02-design-principles.md](./02-design-principles.md) | Part 2: 設計指針 | プロジェクト開始時 |
 | [03-practices.md](./03-practices.md) | Part 3: 実践手法 | 日々の開発 |
 | [04-growth-adoption.md](./04-growth-adoption.md) | Part 4: 成長と定着 | 振り返り時 |
-| [appendix-a-walkthrough.md](./appendix-a-walkthrough.md) | 付録A: ウォークスルー例 | 実践イメージ把握 |
+| [appendix-a-walkthrough.md](./appendix-a-walkthrough.md) | 付録A-1: ウォークスルー例（ログイン機能） | 実践イメージ把握 |
+| [appendix-a-2-csv-pipeline.md](./appendix-a-2-csv-pipeline.md) | 付録A-2: CSVデータ変換パイプライン | Type 2タスク、Result型 |
+| [appendix-a-3-refactoring.md](./appendix-a-3-refactoring.md) | 付録A-3: 既存コードのリファクタリング | 損切り判断、段階的改善 |
 | [appendix-b-troubleshooting.md](./appendix-b-troubleshooting.md) | 付録B: トラブルシューティング | 問題発生時 |
 | [appendix-c-prompt-design.md](./appendix-c-prompt-design.md) | 付録C: 指示設計ガイド | 指示の書き方改善 |
 | [appendix-d-tooling-reference.md](./appendix-d-tooling-reference.md) | 付録D: ツール化対応表 | 判断支援ツール実装 |
