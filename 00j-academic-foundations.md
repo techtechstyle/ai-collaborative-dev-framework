@@ -231,6 +231,7 @@ AI協働を考える発想の手がかりとしては有用です。
 
 ### 知的源流・メタ哲学
 
+- Dijkstra, E. W. (1970). Notes on structured programming (EWD249).
 - Engelbart, D. C. (1962). *Augmenting Human Intellect: A Conceptual Framework*. SRI.
 - Hutchins, E. (1995). *Cognition in the Wild*. MIT Press.
 - Lee, J. D., & See, K. A. (2004). Trust in automation: Designing for appropriate reliance. *Human Factors*, 46(1), 50–80.
@@ -244,10 +245,12 @@ AI協働を考える発想の手がかりとしては有用です。
 
 - Buçinca, Z., Malaya, M. B., & Gajos, K. Z. (2021). To trust or to think: Cognitive forcing functions can reduce overreliance on AI in AI-assisted decision-making. *Proc. ACM HCI*, 5(CSCW1).
 - Correa, C. G., Ho, M. K., Callaway, F., Daw, N. D., & Griffiths, T. L. (2023). Humans decompose tasks by trading off utility and computational cost. *PLOS Computational Biology*.
+- Farley, D. (2021). *Modern Software Engineering*. Addison-Wesley.
 - Edmondson, A. (1999). Psychological safety and learning behavior in work teams. *Administrative Science Quarterly*, 44(2), 350–383.
 - Fernandes, D., et al. (2026). AI makes you smarter but none the wiser: The disconnect between performance and metacognition. *Computers in Human Behavior*, 175, 108779.
 - Gajos, K. Z., & Mamykina, L. (2022). Do people engage cognitively with AI? Impact of AI assistance on incidental learning. *Proc. IUI 2022*.
 - Gerlich, M. (2025). AI tools in society: Impacts on cognitive offloading and the future of critical thinking. *Societies*, 15(1), 6.
+- Groce, A., et al. (2018). How verified (or tested) is my code? Falsification-driven verification and testing. *Automated Software Engineering*, 25.
 - Han, T. A., Perret, C., & Powers, S. T. (2021). When to (or not to) trust intelligent machines: Insights from an evolutionary game theory analysis of trust in repeated games. *Cognitive Systems Research*.
 - Hemmer, P., et al. Complementarity in human-AI collaboration. arXiv:2404.00029.
 - Herrmann (2025). A decision-theoretic approach for managing misalignment. arXiv:2512.15584.
