@@ -11,7 +11,7 @@
 | レベル | このPartで読むべきセクション |
 |-------|---------------------------|
 | **L1(基礎)** | はじめに、ソフトウェア工学の解放、AIへの期待値、増強の哲学、引き出す責任、協働の責任、AIの応える責任、哲学の階層構造、Level 0〜4の各哲学、無慈悲な親切心、向いている人・向いていない人、まとめ |
-| **L2(実践)** | L1 + 階層構造がもたらすもの、27の原則（人間15 + 協働4 + AI 4 + AIファースト4）、階層と実践の対応 |
+| **L2(実践)** | L1 + 階層構造がもたらすもの、28の原則（人間15 + 協働4 + AI 4 + AIファースト5）、階層と実践の対応 |
 | **L3(最適化)** | 全体（学術基盤を含む） |
 
 > 💡 `[L1]` `[L2]` `[L3]` ラベルは各セクションの対象レベルを示します。
@@ -31,7 +31,7 @@ Part 0: 哲学と原則
 ├── 00c-sustainability.md ← Level 0: 持続可能性（可逆性含む）
 ├── 00d-psychological-safety.md ← Level 1: 心理的安全性
 ├── 00e-haste-simplicity.md     ← Level 2-3: 急がば回れ、シンプルさ、YAGNI
-├── 00f-principles.md     ← 27の原則（人間15 + 協働4 + AI 4 + AIファースト4）
+├── 00f-principles.md     ← 28の原則（人間15 + 協働4 + AI 4 + AIファースト5）
 ├── 00g-ai-first.md       ← Level 4: AIファースト（AIの強みを活かす）
 ├── 00h-engineering-liberation.md ← ソフトウェア工学の解放（詳細）
 ├── 00i-merciless-kindness.md    ← 無慈悲な親切心（補足コラム）
@@ -45,8 +45,8 @@ Part 0: 哲学と原則
 | [00c-sustainability.md](./00c-sustainability.md) | Level 0: 持続可能性、可逆性の原則(R1-R3) | L1 |
 | [00d-psychological-safety.md](./00d-psychological-safety.md) | Level 1: 心理的安全性、具体的行動、チーム規範 | L1 |
 | [00e-haste-simplicity.md](./00e-haste-simplicity.md) | Level 2: 急がば回れ、Level 3: シンプルさ、1文1検証、YAGNI | L1 |
-| [00f-principles.md](./00f-principles.md) | 27の原則（人間15 + 協働4 + AI 4 + AIファースト4）、階層と実践の対応、まとめ | L2 |
-| [00g-ai-first.md](./00g-ai-first.md) | Level 4: AIファースト、F1-F4原則、認知労働分業 | L2 |
+| [00f-principles.md](./00f-principles.md) | 28の原則（人間15 + 協働4 + AI 4 + AIファースト5）、階層と実践の対応、まとめ | L2 |
+| [00g-ai-first.md](./00g-ai-first.md) | Level 4: AIファースト、F1-F5原則、タスクの3分類、認知労働分業 | L2 |
 | [00h-engineering-liberation.md](./00h-engineering-liberation.md) | ソフトウェア工学の解放（詳細）、7つの解放される実践、品質の民主化 | L1-L3 |
 | [00i-merciless-kindness.md](./00i-merciless-kindness.md) | 無慈悲な親切心、AIとの向き合い方、3つの柱 | L1 |
 | [00j-academic-foundations.md](./00j-academic-foundations.md) | 学術基盤：知的源流、根拠の種類の表記 [E][F][A][H]、層ごとの根拠、反証側の知見 | L2-L3 |
@@ -60,7 +60,7 @@ Part 0: 哲学と原則
 3. **AIは人間を「置き換える」のではなく「増強する」— 判断は常に人間**
 4. **5つの哲学は階層構造 — 持続可能性 → 心理的安全性 → 急がば回れ → シンプルさ → AIファースト**
 5. **「1文1検証」+ YAGNI — シンプルな入力と検証可能な出力がすべての基本**
-6. **27の原則 — 人間の責任（15）+ 協働の責任（4）+ AIの責任（4）+ AIファースト（4）**
+6. **28の原則 — 人間の責任（15）+ 協働の責任（4）+ AIの責任（4）+ AIファースト（5）**
 7. **AIファースト — L0-L3を守った上で、AIの強みを最大限に活用する**
 
 ---
@@ -128,7 +128,7 @@ flowchart TB
 3. [00c-sustainability.md](./00c-sustainability.md) — Level 0 を理解
 4. [00d-psychological-safety.md](./00d-psychological-safety.md) — Level 1 を理解
 5. [00e-haste-simplicity.md](./00e-haste-simplicity.md) — Level 2-3、YAGNIを理解
-6. [00f-principles.md](./00f-principles.md) — 27の原則とまとめ
+6. [00f-principles.md](./00f-principles.md) — 28の原則とまとめ
 7. [00h-engineering-liberation.md](./00h-engineering-liberation.md) — ソフトウェア工学の解放（詳細）
 
 ### 時間がない方（最小限）

@@ -114,14 +114,14 @@ v4.3では、調査レポートの概念を**100%反映**し、SOLID原則等の
 | L2 急がば回れ | フェイルファスト、ポカヨケ | 早期検出と多層防御 |
 | L3 シンプルさ | POLA、CQS | 予測可能な設計とタスク分類 |
 
-### 27の原則（人間15 + 協働4 + AI 4 + AIファースト4）
+### 28の原則（人間15 + 協働4 + AI 4 + AIファースト5）
 
 ```mermaid
 flowchart LR
     H["<b>人間の原則（インプット）</b><br>15原則<br>G1-G3, R1-R3, P1-P3<br>H1-H3, S1-S3 + YAGNI"]
     C["<b>協働の原則（プロセス）</b><br>4原則<br>C1: 認識の確認<br>C2: 進捗の共有<br>C3: 不確実性の明示<br>C4: フィードバック循環"]
     A["<b>AIの原則（アウトプット）</b><br>4原則<br>A1: 指示範囲の厳守<br>A2: 最小構成の選択<br>A3: 検証可能な出力<br>A4: 規約の厳守"]
-    F["<b>AIファーストの原則（実践層）</b><br>4原則<br>F1: 初期案生成はAIから<br>F2: 一貫性確保はAIに委譲<br>F3: 網羅性チェックはAIに依頼<br>F4: プロンプト設計を最適化"]
+    F["<b>AIファーストの原則（実践層）</b><br>5原則<br>F1: 初期案生成はAIから<br>F2: 一貫性確保はAIに委譲<br>F3: 網羅性チェックはAIに依頼<br>F4: プロンプト設計を最適化<br>F5: 判断は人間が先に見立てを持つ"]
 
     H --> C --> A
     A -->|"L0-L3を満たした上での積極活用"| F
@@ -211,7 +211,7 @@ flowchart TB
 | ├ [00c-sustainability.md](./00c-sustainability.md) | Level 0: 持続可能性 | L1 |
 | ├ [00d-psychological-safety.md](./00d-psychological-safety.md) | Level 1: 心理的安全性 | L1 |
 | ├ [00e-haste-simplicity.md](./00e-haste-simplicity.md) | Level 2-3: 急がば回れ、シンプルさ | L1 |
-| ├ [00f-principles.md](./00f-principles.md) | 27の原則、まとめ | L2 |
+| ├ [00f-principles.md](./00f-principles.md) | 28の原則、まとめ | L2 |
 | ├ [00g-ai-first.md](./00g-ai-first.md) | Level 4: AIファースト | L2 |
 | ├ [00h-engineering-liberation.md](./00h-engineering-liberation.md) | ソフトウェア工学の解放（詳細） | L1-L3 |
 | └ [00i-merciless-kindness.md](./00i-merciless-kindness.md) | 無慈悲な親切心（補足コラム） | L1 |

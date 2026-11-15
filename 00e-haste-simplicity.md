@@ -1047,4 +1047,4 @@ AIエージェントが数十から数百のステップを自律的に進める
 
 ---
 
-次のドキュメント: [00f-principles.md](./00f-principles.md)（27の原則・まとめ）
+次のドキュメント: [00f-principles.md](./00f-principles.md)（28の原則・まとめ）
