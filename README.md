@@ -1,4 +1,4 @@
-# AI協働開発フレームワーク v4.8
+# AI協働開発フレームワーク v5.0
 
 **〜持続可能な協働のための哲学と実践〜**
 
@@ -32,7 +32,23 @@
 
 **上位Levelが常に優先され、L4はL0-L3の制約内で最適化されます。**
 
-### v4.8の新機能 ★NEW★
+### v5.0の新機能 ★NEW★
+
+v5.0では、フレームワークの**学術基盤を統合**し、**自律的に動くAIエージェントの時代**に合わせて原則を精密にしました。
+L0〜L4の階層、BL1〜BL4、増強の哲学は変わりません。
+
+| 追加・変更内容 | 説明 |
+|---------|------|
+| **学術基盤の章（新規）** | 知的源流（メタ哲学＋7つの源流＋分析の道具）、根拠の種類の表記 [E][F][A][H]、層ごとの根拠、反証側の知見 |
+| **1文1検証の二層構造** | 「単位の基準」は固定し、人間の「レビューの深さ」を信頼とリスクで変える |
+| **反証の原則と Human-on-the-Loop** | 「何が起きたら間違いか」を先に決める。人間は反証の基準を設計し、結果を評価する |
+| **F5とタスクの3分類** | 判断のタスクでは人間が先に見立てを持つ（F5）。生成／判断／責任で主導を分ける。28の原則に |
+| **認知的関与を保つ3つの仕組み** | フェーディング、リライアンスドリル、予測→実測の振り返り |
+| **構造的心理的安全性** | 勇気に頼らず仕組みで支える（AIアンドン、AIヒヤリハット記録など） |
+
+> 📖 詳細は [00j-academic-foundations.md](./00j-academic-foundations.md) と [v5.0 移行ガイド](./migration-v4.md) を参照
+
+#### v4.8で追加済みの概念
 
 v4.8では、AI協働における「**無慈悲な親切心**」を言語化し、BL4の因果的役割を補足しました:
 
@@ -214,7 +230,8 @@ flowchart TB
 | ├ [00f-principles.md](./00f-principles.md) | 28の原則、まとめ | L2 |
 | ├ [00g-ai-first.md](./00g-ai-first.md) | Level 4: AIファースト | L2 |
 | ├ [00h-engineering-liberation.md](./00h-engineering-liberation.md) | ソフトウェア工学の解放（詳細） | L1-L3 |
-| └ [00i-merciless-kindness.md](./00i-merciless-kindness.md) | 無慈悲な親切心（補足コラム） | L1 |
+| ├ [00i-merciless-kindness.md](./00i-merciless-kindness.md) | 無慈悲な親切心（補足コラム） | L1 |
+| └ [00j-academic-foundations.md](./00j-academic-foundations.md) | 学術基盤（知的源流、根拠の種類、反証側の知見） | L2-L3 |
 | [01-mindset.md](./01-mindset.md) | Part 1: マインドセット | 哲学に共感後 |
 | [02-design-principles.md](./02-design-principles.md) | Part 2: 設計指針 | プロジェクト開始時 |
 | [03-practices.md](./03-practices.md) | Part 3: 実践手法 | 日々の開発 |
@@ -226,6 +243,7 @@ flowchart TB
 | [appendix-c-prompt-design.md](./appendix-c-prompt-design.md) | 付録C: 指示設計ガイド | 指示の書き方改善 |
 | [appendix-d-tooling-reference.md](./appendix-d-tooling-reference.md) | 付録D: ツール化対応表 | 判断支援ツール実装 |
 | [CHANGELOG.md](./CHANGELOG.md) | 変更履歴 | 更新確認時 |
+| [migration-v4.md](./migration-v4.md) | v5.0 移行ガイド（v4.xからの変更点） | v4.xを使っていた方 |
 
 ---
 
@@ -332,6 +350,7 @@ npm run test         # テスト実行
 
 | バージョン | 主な変更 |
 |-----------|----------|
+| v5.0 | 学術基盤の統合（00j新設、根拠の表記）。1文1検証の二層化、反証の原則、Human-on-the-Loop、F5とタスクの3分類（28原則）、認知的関与の保全、構造的心理的安全性 |
 | v4.8 | 「無慈悲な親切心」補足コラム追加。BL4因果関係の補足 |
 | v4.7 | 「増強の双方向性」追加。各哲学層の負の増幅防御を明示、L4の唯一性説明 |
 | v4.6 | 「1文1検証」に反証的思考の視点追加。ポパー/Dijkstraの構造的同型性 |
@@ -366,6 +385,8 @@ npm run test         # テスト実行
 ## 参考文献・謝辞
 
 本フレームワークは以下の文献・情報源を参考にしています。
+
+> 📚 v5.0で統合した学術的根拠の一覧と参考文献は、[学術基盤](./00j-academic-foundations.md#参考文献) にまとめています。
 
 ### 学術論文
 
