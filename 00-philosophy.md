@@ -12,7 +12,7 @@
 |-------|---------------------------|
 | **L1(基礎)** | はじめに、ソフトウェア工学の解放、AIへの期待値、増強の哲学、引き出す責任、協働の責任、AIの応える責任、哲学の階層構造、Level 0〜4の各哲学、無慈悲な親切心、向いている人・向いていない人、まとめ |
 | **L2(実践)** | L1 + 階層構造がもたらすもの、27の原則（人間15 + 協働4 + AI 4 + AIファースト4）、階層と実践の対応 |
-| **L3(最適化)** | 全体 |
+| **L3(最適化)** | 全体（学術基盤を含む） |
 
 > 💡 `[L1]` `[L2]` `[L3]` ラベルは各セクションの対象レベルを示します。
 > 自分のレベルに合った部分から読み始めてください。
@@ -34,7 +34,8 @@ Part 0: 哲学と原則
 ├── 00f-principles.md     ← 27の原則（人間15 + 協働4 + AI 4 + AIファースト4）
 ├── 00g-ai-first.md       ← Level 4: AIファースト（AIの強みを活かす）
 ├── 00h-engineering-liberation.md ← ソフトウェア工学の解放（詳細）
-└── 00i-merciless-kindness.md    ← 無慈悲な親切心（補足コラム）
+├── 00i-merciless-kindness.md    ← 無慈悲な親切心（補足コラム）
+└── 00j-academic-foundations.md  ← 学術基盤（知的源流、根拠の種類、反証側の知見）
 ```
 
 | ファイル | 内容 | 対象レベル |
@@ -48,6 +49,7 @@ Part 0: 哲学と原則
 | [00g-ai-first.md](./00g-ai-first.md) | Level 4: AIファースト、F1-F4原則、認知労働分業 | L2 |
 | [00h-engineering-liberation.md](./00h-engineering-liberation.md) | ソフトウェア工学の解放（詳細）、7つの解放される実践、品質の民主化 | L1-L3 |
 | [00i-merciless-kindness.md](./00i-merciless-kindness.md) | 無慈悲な親切心、AIとの向き合い方、3つの柱 | L1 |
+| [00j-academic-foundations.md](./00j-academic-foundations.md) | 学術基盤：知的源流、根拠の種類の表記 [E][F][A][H]、層ごとの根拠、反証側の知見 | L2-L3 |
 
 ---
 
